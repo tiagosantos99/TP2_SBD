@@ -1,0 +1,7 @@
+/.settings/
+/.buildpath
+.project
+.classpath
+/.idea/
+/target/
+/Servers/
