@@ -2,13 +2,13 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Insert title here</title>
-	
-		<link rel="stylesheet" type="text/css" href="styles/global.css">
-	    <link rel="stylesheet" type="text/css" href="styles/paginaTutor.css">
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+
+	<link rel="stylesheet" type="text/css" href="styles/global.css">
+    <link rel="stylesheet" type="text/css" href="styles/paginaTutor.css">
+</head>
 <body>
 
 </body>
