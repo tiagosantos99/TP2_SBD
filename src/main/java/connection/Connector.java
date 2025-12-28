@@ -73,7 +73,7 @@ public class Connector {
 		}
 	}
 	
-	
+	/*
 	public static void main(String[] args) throws SQLException{
 		// open/get connection do BD
 		Connection conn= getConnection(URL, USER, PASSWORD);
@@ -109,5 +109,5 @@ public class Connector {
 		// close connection
 		conn.close();
 		System.out.println("End.");
-	}
+	}*/
 }
