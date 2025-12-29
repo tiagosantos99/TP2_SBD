@@ -5,13 +5,15 @@ public class Funcionario {
 	private String idFuncionario;
 	private String nome;
 	private String localidade;
+	private String username;
 	
 	public Funcionario() {}
 	
-	public Funcionario(String idFuncionario, String nome, String localidade) {
+	public Funcionario(String idFuncionario, String nome, String localidade, String username) {
 		this.idFuncionario = idFuncionario;
 		this.nome = nome;
 		this.localidade = localidade;
+		this.setUsername(username);
 	}
 
 	public String getIdFuncionario() {
@@ -36,6 +38,14 @@ public class Funcionario {
 
 	public void setLocalidade(String localidade) {
 		this.localidade = localidade;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 }

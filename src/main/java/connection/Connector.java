@@ -7,10 +7,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Connector {
-	
-	private static final String URL= "jdbc:mysql://localhost:3306/db_edc"; // NorthWindor another schema
-	private static final String USER= "root"; // or userXX
-	private static final String PASSWORD= "root";
+	private static final String URL = "jdbc:mysql://localhost:3306/db_edc"; // NorthWindor another schema
+	private static final String USER = "root"; // or userXX
+	private static final String PASSWORD = "root";
 	
 	/** get MySQL Connection */
 	public static Connection getConnection(String url, String user, String password) {

@@ -8,10 +8,11 @@ public class Cliente {
 	private String tipo;
 	private String capitalSocial;
 	private String preferenciasLinguisticas;
+	private String username;
 
 	public Cliente() {}
 	
-	public Cliente(String nif, String nome, String contatos, String morada, String tipo, String capitalSocial, String preferenciasLinguisticas) {
+	public Cliente(String nif, String nome, String contatos, String morada, String tipo, String capitalSocial, String preferenciasLinguisticas, String username) {
 		this.setNif(nif);
 		this.setNome(nome);
 		this.setContatos(contatos);
@@ -19,6 +20,7 @@ public class Cliente {
 		this.setTipo(tipo);
 		this.setCapitalSocial(capitalSocial);
 		this.setPreferenciasLinguisticas(preferenciasLinguisticas);
+		this.setUsername(username);
 	}
 
 	public String getNif() {
@@ -75,6 +77,14 @@ public class Cliente {
 
 	public void setPreferenciasLinguisticas(String preferenciasLinguisticas) {
 		this.preferenciasLinguisticas = preferenciasLinguisticas;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 }
